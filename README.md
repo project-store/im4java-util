@@ -1,0 +1,2 @@
+# im4java-util
+im4java使用的例子，具体调用ImageMagick或者GraphicsMagick
