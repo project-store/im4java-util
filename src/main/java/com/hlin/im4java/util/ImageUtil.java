@@ -52,7 +52,7 @@ public class ImageUtil {
     /**
      * 水印图片路径
      */
-    private static String watermarkImagePath = "http://res.d.cn/android/watermark.png";
+    private static String watermarkImagePath = "watermark.png";
 
     /**
      * 水印图片
@@ -61,7 +61,8 @@ public class ImageUtil {
 
     static {
         try {
-            watermarkImage = ImageIO.read(new URL(watermarkImagePath));
+            //watermarkImage = ImageIO.read(new URL(watermarkImagePath));
+            watermarkImage = ImageIO.read(new File(watermarkImagePath));
         } catch (Exception e) {
             e.printStackTrace();
         }
