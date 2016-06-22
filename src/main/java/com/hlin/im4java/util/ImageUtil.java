@@ -26,7 +26,7 @@ import com.sun.image.codec.jpeg.JPEGEncodeParam;
 import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 /**
- * 图片处理工具类
+ * 图片处理工具类，经过测试ImageMagick7.x版本不支持，命令貌似换了，安装之后文件都不一样了
  * 
  * @author hailin0@yeah.net
  * @createDate 2016年6月5日
